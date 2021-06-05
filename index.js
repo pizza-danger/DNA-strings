@@ -19,6 +19,6 @@ console.log(dna.slice(16,19));
 
 //d) Use a template literal to print, "The DNA strand is ___ characters long."
 
-
+console.log(`The DNA strand is ${dna.length} characters long.`);
 
 //e) Just for fun, apply methods to ``dna`` and use another template literal to print, 'taco cat'.
