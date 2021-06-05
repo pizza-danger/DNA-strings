@@ -15,7 +15,7 @@ if (dna.indexOf("CAT")) {
 
 //c) Use .slice() to print out the fifth gene (set of 3 characters) from the DNA strand.
 
-
+console.log(dna.slice(16,19));
 
 //d) Use a template literal to print, "The DNA strand is ___ characters long."
 
