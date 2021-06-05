@@ -2,7 +2,7 @@ let dna = "TCG-TAC-GAC-TAC-CGT-CAG-ACT-TAA-CCA-GTC-CAT-AGA-GCT";
 
 //a) Replace the gene "GCT" with "AGG", and then print the altered strand.
 
-
+console.log(dna.replace("GCT","AGG"));
 
 //b) Look for the gene "CAT" with ``indexOf()``. If found print, "CAT gene found", otherwise print, "CAT gene NOT found".
 
