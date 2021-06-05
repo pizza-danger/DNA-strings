@@ -6,6 +6,11 @@ console.log(dna.replace("GCT","AGG"));
 
 //b) Look for the gene "CAT" with ``indexOf()``. If found print, "CAT gene found", otherwise print, "CAT gene NOT found".
 
+if (dna.indexOf("CAT")) {
+  console.log("CAT gene found");
+ } else {
+    console.log("CAT gene NOT found");
+  }
 
 
 //c) Use .slice() to print out the fifth gene (set of 3 characters) from the DNA strand.
